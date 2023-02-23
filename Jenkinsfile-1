@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { label 'noble-agent-01' }
   stages {
     stage('Hello') {
       steps {
